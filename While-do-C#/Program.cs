@@ -80,56 +80,92 @@ namespace Program
             //while (num >= 1);
 
             //Ex.6
-            int N = 5;
-            int i = 0;
-            int dobutok = 1;
-            do
-            {
-                Console.WriteLine("Enter num: ");
-                int num = int.Parse(Console.ReadLine());
-                i++;
-                dobutok *= num;
-            }
-            while (i <= N);
-            Console.WriteLine(dobutok);
+            //int N = 5;
+            //int i = 0;
+            //int dobutok = 1;
+            //do
+            //{
+            //    Console.WriteLine("Enter num: ");
+            //    int num = int.Parse(Console.ReadLine());
+            //    i++;
+            //    dobutok *= num;
+            //}
+            //while (i <= N);
+            //Console.WriteLine(dobutok);
 
             //Ex.7
-            //for (int i = 50; i > 1; i--)
+            //1 type
+            //int sum = 0;
+            //for (int i = 1; i < 50; i++)
             //{
-            //    if (i % 4 == 0) { 
-            //    Console.WriteLine(i);}
+            //    if (i % 4 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //        sum += i;
+            //    }
             //}
+            //Console.WriteLine(sum);
+            //2 Type
+            //int i = 1;
+            //double sum = 0;
+            //do
+            //{
+            //    if (i % 4 == 0)
+            //    {
+            //        Console.WriteLine(i + " ");
+            //        sum += i;
+            //    }
+            //    i++;
+            //}
+            //while (i < 50);
+            //Console.WriteLine($"Sum: {sum}");
             //Ex.8
-            //Console.WriteLine("Enter a num: ");
-            //int n = int.Parse(Console.ReadLine());
-            //for (int i = 0; i <= n; i++)
-            //{
-            //    Console.Write(i + " ");
-            //}
 
+            //int num = int.Parse(Console.ReadLine());
+            //int i = 0;
+            //while (i <= num)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
             //Ex.9
             //Console.Write("Enter start: ");
             //int start = int.Parse(Console.ReadLine());
             //Console.Write("Enter end: ");
             //int end = int.Parse(Console.ReadLine());
-
-            //Console.WriteLine("Parni Chysla: ");
-            //for (int i = start; i <= end; i++)
-            //{
-            //    if (i % 2 == 0)
-            //        Console.WriteLine(i);
-            //}
-            //Console.WriteLine("Neparni Chysla: ");
-            //for (int i = start; i <= end; i++)
+            //int i;
+            //Console.WriteLine("Odd:");
+            //i = start;
+            //while (i <= end)
             //{
             //    if (i % 2 != 0)
+            //    {
             //        Console.WriteLine(i);
+            //    }
+            //    i++;
+
             //}
-            //Console.WriteLine("Kratni 7: ");
-            //for (int i = start; i <= end; i++)
+            //Console.WriteLine("Even:");
+            //i = start;
+            //while (i <= end)
             //{
-            //    if (i % 7 == 0)
+
+            //    if (i % 2 == 0)
+            //    {
             //        Console.WriteLine(i);
+            //    }
+            //    i++;
+            //}
+            //Console.WriteLine("Multiple of 7:");
+            //i = start;
+            //while (i <= end)
+            //{
+
+            //    if (i % 7 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //    i++;
             //}
 
             //Ex.10
@@ -139,10 +175,13 @@ namespace Program
             //Console.Write("Enter end: ");
             //int end = int.Parse(Console.ReadLine());
             //int sum = 0;
-            //for (int i = start; i <= end; i++) { 
-            //    sum  += i;
-            //}
-            //Console.WriteLine(sum);
+            //do
+            //{
+            //    Console.WriteLine(start);
+            //    start++;
+            //    sum += start;
+            //} while (start <= end );
+            //Console.WriteLine($"Sum: {sum}");
 
             //Ex.11
             //double sum = 0;
@@ -156,6 +195,16 @@ namespace Program
             //    sum += num;
             //}
             //Console.WriteLine(sum);
+
+            int sum = 0;
+            int num;
+            do {
+                Console.Write("Enter num: ");
+                num = int.Parse(Console.ReadLine());
+                sum += num;
+            } 
+            while (num != 0);
+            Console.WriteLine($"Sum: {sum}");
         }
     }
 }
