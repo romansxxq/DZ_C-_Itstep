@@ -184,18 +184,6 @@ namespace Program
             //Console.WriteLine($"Sum: {sum}");
 
             //Ex.11
-            //double sum = 0;
-            //double num;
-
-            //for (; ; ) { 
-            //    num = int.Parse(Console.ReadLine());
-            //    if (num == 0) {
-            //        break;
-            //    }
-            //    sum += num;
-            //}
-            //Console.WriteLine(sum);
-
             int sum = 0;
             int num;
             do {
