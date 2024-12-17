@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DZ_C#_Itstep", "DZ_C#_Itstep\DZ_C#_Itstep.csproj", "{BD9511C3-1CA3-4EEA-9007-509FEED26CC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "While-do-C#", "While-do-C#\While-do-C#.csproj", "{BB011EEC-3D53-414B-9D0E-FBC9B3E25353}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BD9511C3-1CA3-4EEA-9007-509FEED26CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD9511C3-1CA3-4EEA-9007-509FEED26CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD9511C3-1CA3-4EEA-9007-509FEED26CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB011EEC-3D53-414B-9D0E-FBC9B3E25353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB011EEC-3D53-414B-9D0E-FBC9B3E25353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB011EEC-3D53-414B-9D0E-FBC9B3E25353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB011EEC-3D53-414B-9D0E-FBC9B3E25353}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
